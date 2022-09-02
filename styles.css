@@ -300,6 +300,9 @@
   align-items: center;
   justify-content: center;
 }
+.product-detail-close img {
+    cursor: pointer;
+}
 
 /* Product Card */
   .cards-container {
@@ -317,6 +320,7 @@
     height: 240px;
     border-radius: 20px;
     object-fit: cover;
+    cursor: pointer;
   }
   .product-card .product-info {
     display: flex;
